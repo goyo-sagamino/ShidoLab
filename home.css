@@ -1,0 +1,121 @@
+#homeContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 1fr;
+}
+
+#profile{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: 180Px 1fr 1fr;
+    grid-template-rows: 50px 1fr;
+
+}
+
+#hobbies{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 10px;
+}
+
+#research{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 10px;
+}
+
+#profileImg1{
+    height: 150px;
+    width: 150px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 15px 0px 15px 0px;
+}
+
+.districtTitle{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#profileTxt{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+#profoleLinks{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+#hobbiesMenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#hobbyPrograming{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#hobbyDenshi{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#hobbyKagaku{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#hobbyGengo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.hobbyWindow{
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    padding: 5px;
+    margin: 5px;
+    background-color:burlywood;
+}
+
+.hobbyImg{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 75px;
+    height: 75px
+}
+
+.hobbyTxt{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
